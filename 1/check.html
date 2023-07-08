@@ -1,0 +1,31 @@
+<!DOCtype html>
+<html>
+    <head>
+        <title></title>
+    </head>
+<body>
+    <input type="text" id="Firstname" placeholder="Enter Firstname">
+    <br>
+    <input type="text" id="Lastname" placeholder="Enter Lastname">
+    <br>
+    <button type = "submit">Submit</button>
+    <br>
+    <button type = "button" id="click" onclick = "disp()">click here for more info</button>
+    <p class="display" id="display1"></p>
+
+    <script>
+    const fname = document.getElementById("Firstname");
+    const lname = document.getElementById("Lastname");
+    const click1 = document.getElementById("click");
+    const displ1 = document.getElementById("display1");
+
+    function disp(){ 
+        displ1.innerHTML = fname.value + " " + lname.value +
+        " BSIT AU-FA1-IT3 SOUTH 2";
+    }
+    
+    click.innerEventListener('click',disp);
+
+    </script>
+</body>
+</html>

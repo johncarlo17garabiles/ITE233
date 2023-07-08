@@ -1,0 +1,13 @@
+body {
+    background-color: pink;
+  }
+  
+  h1 {
+    color: palevioletred;
+    margin-left: 10px;
+  }
+  
+  p {
+    color: plum;
+    margin-left: 10px;
+  }

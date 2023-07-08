@@ -1,0 +1,34 @@
+.ecp1
+{
+    font-size: 1.5em;
+    color: pink;
+    text-align: center;
+    margin-left: 20px;
+}
+    @media screen and (max-width: 600px) 
+    {
+        .ecp1{
+            font-size: 1.5em;
+            color:rgb(235, 38, 38);
+            text-align: center;
+            margin-left: 20px;
+        }
+    }
+
+.ecimg1
+{
+    float: right;
+    height: 400px;
+    width: 300px;
+    margin-right: 120px;
+    margin-top: 30px;
+}
+
+@media screen and (max-width: 600px){
+    .ecimg1
+    {
+        float: left;
+        height: auto;
+        width: 100%;
+    }
+}
