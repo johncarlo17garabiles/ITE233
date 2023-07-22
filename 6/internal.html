@@ -1,0 +1,65 @@
+<!DOCtype html>
+<html>
+    <head>
+        <title>Internal/About</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+<style>
+nav {
+    width: 100%;
+    height: 80px;
+    background-color: orange;
+}
+ul {
+    text-align: center;
+}
+ul li {
+    list-style: none;
+    display: inline-block;
+    line-height: 80px;
+}
+ul li a {
+    display: block;
+    font-size: 20px;
+    font-family: verdana;
+    padding: 0 20px;
+}
+
+marquee {
+    background-color: orange;
+}
+
+.guko {
+    width: 120px;
+    height: 80px;
+}
+
+h1 {
+    text-align: center;
+    color: orange;
+}
+
+.bg {
+    float: right;
+}
+</style>
+<body>
+    <nav>
+        <ul>
+            <div class="bg">
+                <input type = "button" value = "DIDILIM" onClick = "document.bgColor = 'black'">
+                <input type = "button" value = "LILIWANAG" onClick = "document.bgColor = 'white'">
+            </div>
+            <li><a href="inline.html">SUPERMAN</a></li>
+            <li><a href="internal.html">GUKO</a></li>
+            <li><a href="external.html">GUNDAM</a></li>
+        </ul>
+    </nav>
+
+    <h1>I used Internal CSS on this PAGE</h1>
+
+    <marquee direction= "right" scrollamount="25">
+        <img src="guko.png" alt="Superman is on another mission" class="guko">
+    </marquee>
+</body>
+</html>

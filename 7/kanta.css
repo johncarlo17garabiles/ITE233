@@ -1,0 +1,46 @@
+body{
+    background-color: #0B0C10;
+    font-weight: bolder;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h1{
+    font-size: 75px;
+    text-align: center;
+    color: #66FCf1;
+    text-shadow: 1px 2px #45A29E;
+}
+
+.center_img{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+}
+
+.center_img .dancer1{
+    height: 200px;
+    width: 200px;
+}
+
+.center_img .dancer2{
+    height: 200px;
+    width: 200px;
+}
+
+.center_img .dancer3{
+    height: 200px;
+    width: 200px;
+}
+
+.center_img .dancer4{
+    height: 200px;
+    width: 200px;
+}
+
+.center_text{
+
+    font-size: 30px;
+    color: #66FCf1;
+    text-align: center;
+    text-shadow: 1px 1px #45A29E;
+}
